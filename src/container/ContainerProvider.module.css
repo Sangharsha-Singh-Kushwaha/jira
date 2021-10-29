@@ -1,0 +1,49 @@
+.colnavbar {
+  top: 0px;
+  left: 0px;
+  color: rgba(10, 10, 10, 0.479);
+  padding: 0px 16px 24px;
+  background:rgb(244, 245, 247)  ;
+  border-right: 2px solid rgb(185, 185, 185);
+}
+
+.colleftnavbar {
+  width: 150px;
+  background: rgb(0, 97, 194);
+ 
+}
+
+.colleftnavbar div{
+  display: flex;
+  
+  margin-top: 50px;
+}
+
+.colleftnavbar ul {
+  text-align: center;
+}
+
+.colleftnavbar ul li{
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: aliceblue;
+  
+}
+
+.colleftnavbar:hover {
+  width: 200px;
+}
+
+@media(max-width:1150px){
+  .colleftnavbar ul li{
+    margin-right: 10px;
+  }
+}
+
+
+
+
+
+
+

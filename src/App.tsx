@@ -1,13 +1,12 @@
-import React, { Fragment } from 'react';
+import React from "react";
 
-import './App.css';
-import MainNavbar from './components/navbar/MainNavbar';
+import "./App.css";
+
+import ContainerProvider from "./container/ContainerProvider";
 
 function App() {
   return (
-    <Fragment>
-      <MainNavbar/>
-    </Fragment>
+    <ContainerProvider/>
   );
 }
 
